@@ -1,5 +1,6 @@
 .DS_Store
 external/
+.python-version
 
 *.pyc
 job_data/
