@@ -20,6 +20,14 @@ dependencies = [
     "tqdm>=4.67.1",
 ]
 
+[project.optional-dependencies]
+test = [
+    "codecov>=2.1.13",
+    "coverage>=7.6.9",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
