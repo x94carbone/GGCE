@@ -1,6 +1,8 @@
 .DS_Store
 external/
 .python-version
+pyrightconfig.json
+!justfile
 
 *.pyc
 job_data/
